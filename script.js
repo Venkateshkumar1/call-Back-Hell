@@ -1,0 +1,45 @@
+var counter = document.getElementById('counter')
+setTimeout(()=>{
+   console.log("10")
+   counter.innerText=10
+},1000);
+setTimeout(()=>{
+    console.log("9")
+    counter.innerText=9
+ },2000);
+ setTimeout(()=>{
+    console.log("8")
+    counter.innerText=8
+ },3000);
+ setTimeout(()=>{
+    console.log("7")
+    counter.innerText=7
+ },4000);
+ setTimeout(()=>{
+    console.log("6")
+    counter.innerText=6
+ },5000);
+ setTimeout(()=>{
+    console.log("5")
+    counter.innerText=5
+ },6000);
+ setTimeout(()=>{
+    console.log("4")
+    counter.innerText=4
+ },7000);
+ setTimeout(()=>{
+    console.log("3")
+    counter.innerText=3
+ },8000);
+ setTimeout(()=>{
+    console.log("2")
+    counter.innerText=2
+ },9000);
+ setTimeout(()=>{
+    console.log("1")
+    counter.innerText=1
+ },10000);
+ setTimeout(()=>{
+    console.log("Happy Independence Day")
+    counter.innerText= 'Happy Independence Day'
+ },11000);
